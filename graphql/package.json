@@ -1,0 +1,31 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graphql_resources.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.4",
+    "@graphql-tools/resolvers-composition": "^7.0.1",
+    "@types/express": "^4.17.21",
+    "apollo-server-express": "^3.13.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "tsx": "^4.11.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@graphql-tools/graphql-file-loader": "^8.0.1",
+    "@graphql-tools/load": "^8.0.2",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
+  }
+}

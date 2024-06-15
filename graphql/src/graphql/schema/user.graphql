@@ -1,0 +1,24 @@
+
+type Query {
+  getUser(id: ID!): User
+  getUsers: [User]!
+}
+
+type Mutation {
+  "Add user"
+  addUser(username: String!, email: String!, password: String!): User!
+
+  "updateUser"
+  updateUser(id: ID!, username: String, email: String, password: String): UserResponse!
+
+  "deleteUser"
+  deleteUser(id: ID!): UserResponse!
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+
+# 66619dae527d55a045a0a552

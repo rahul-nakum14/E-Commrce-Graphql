@@ -1,0 +1,15 @@
+"""
+Information for a single user.
+"""
+type User {
+  id: ID!
+  username: String!
+  email: String!
+  password: String!
+}
+
+type UserResponse {
+  success: Boolean!
+  message: String
+  user: User
+}
